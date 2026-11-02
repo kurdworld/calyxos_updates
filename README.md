@@ -1,193 +1,77 @@
-i<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CalyxOS Overview</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.6;
-            color: #333;
-        }
+# CalyxOS Overview
 
-        h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
+## What is CalyxOS?
 
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-        }
+CalyxOS is a privacy-focused Android operating system designed to provide a secure, usable, and de-Googled mobile experience. It is based on the Android Open Source Project (AOSP) and includes additional privacy, security, and usability enhancements.
 
-        h3 {
-            color: #555;
-            margin-top: 20px;
-        }
+Key features include:
 
-        .info-box {
-            background: #f8f9fa;
-            border-left: 4px solid #3498db;
-            padding: 15px;
-            margin: 20px 0;
-        }
+- Enhanced privacy and security compared to stock Android.
+- Regular security updates.
+- Built-in support for MicroG as an alternative to Google Play Services.
+- Improved permission controls and privacy protections.
+- Option to operate without signing into a Google account.
+- Open-source development and transparency.
 
-        .recommended {
-            background: #e8f5e9;
-            border-left: 4px solid #4caf50;
-            padding: 15px;
-            margin: 20px 0;
-        }
+## Who Should Use CalyxOS?
 
-        .not-recommended {
-            background: #ffebee;
-            border-left: 4px solid #f44336;
-            padding: 15px;
-            margin: 20px 0;
-        }
+CalyxOS is well suited for users who:
 
-        ul {
-            padding-left: 25px;
-        }
+- Value privacy and data minimization.
+- Prefer open-source software.
+- Want greater control over how their device communicates with online services.
+- Can adapt to alternatives for some Google services.
 
-        li {
-            margin-bottom: 8px;
-        }
+## Important Considerations
 
-        .summary {
-            background: #f4f4f4;
-            border-radius: 5px;
-            padding: 20px;
-            margin-top: 30px;
-        }
-    </style>
-</head>
-<body>
+### Not Recommended for Heavy Google Service Users
 
-    <h1>CalyxOS Overview</h1>
+CalyxOS may not be suitable for users who heavily depend on Google's ecosystem and expect all Google features to function exactly as they do on stock Android.
 
-    <h2>What is CalyxOS?</h2>
+Examples include:
 
-    <p>
-        CalyxOS is a privacy-focused Android operating system designed to provide a secure,
-        usable, and de-Googled mobile experience. It is based on the Android Open Source
-        Project (AOSP) and includes additional privacy, security, and usability enhancements.
-    </p>
+- Google Account synchronization
+  - Contacts sync may require additional configuration.
+  - Calendar sync may require alternative applications or setup.
+  - Some Google account features may not function identically to stock Android.
 
-    <div class="info-box">
-        <strong>Key Features:</strong>
-        <ul>
-            <li>Enhanced privacy and security compared to stock Android.</li>
-            <li>Regular security updates.</li>
-            <li>Built-in support for MicroG as an alternative to Google Play Services.</li>
-            <li>Improved permission controls and privacy protections.</li>
-            <li>Ability to operate without signing into a Google account.</li>
-            <li>Open-source development and transparency.</li>
-        </ul>
-    </div>
+- Android Auto
+  - Android Auto support may be limited, inconsistent, or unavailable depending on the device, Android version, and application compatibility.
 
-    <h2>Who Should Use CalyxOS?</h2>
+- Google Play Services Dependencies
+  - Some banking, payment, enterprise, and streaming applications may rely on proprietary Google services.
+  - Push notifications and background services may behave differently for some applications.
 
-    <p>
-        CalyxOS is best suited for users who value privacy, open-source software,
-        and greater control over how their devices communicate with online services.
-    </p>
+- Google Wallet / Contactless Payments
+  - NFC payment functionality may not work as expected depending on application requirements and device certification.
 
-    <div class="recommended">
-        <h3>Recommended For</h3>
-        <ul>
-            <li>Privacy-conscious users.</li>
-            <li>Open-source enthusiasts.</li>
-            <li>Users seeking enhanced security and transparency.</li>
-            <li>Users comfortable using alternatives to Google services.</li>
-            <li>Users who want greater control over their device and data.</li>
-        </ul>
-    </div>
+- Proprietary Google Features
+  - Certain Google-exclusive features available on Pixel devices or stock Android may not be supported.
 
-    <h2>Important Considerations</h2>
+## Recommended For
 
-    <div class="not-recommended">
-        <h3>Not Recommended for Heavy Google Service Users</h3>
+✅ Privacy-conscious users
 
-        <p>
-            CalyxOS may not be suitable for users who rely heavily on Google's ecosystem
-            and expect all Google services to function exactly as they do on stock Android.
-        </p>
+✅ Open-source enthusiasts
 
-        <ul>
-            <li>
-                <strong>Google Account Synchronization</strong>
-                <ul>
-                    <li>Contacts synchronization may require additional setup.</li>
-                    <li>Calendar synchronization may require alternative applications or configuration.</li>
-                    <li>Google account integration is not as seamless as stock Android.</li>
-                </ul>
-            </li>
+✅ Users comfortable troubleshooting applications
 
-            <li>
-                <strong>Android Auto</strong>
-                <ul>
-                    <li>Android Auto support may be unavailable, limited, or inconsistent.</li>
-                    <li>Compatibility depends on the device, configuration, and application versions.</li>
-                </ul>
-            </li>
+✅ Users willing to use alternatives to Google services
 
-            <li>
-                <strong>Google Play Services Dependencies</strong>
-                <ul>
-                    <li>Some banking, enterprise, payment, and streaming applications may not function correctly.</li>
-                    <li>Push notifications and background services may behave differently.</li>
-                </ul>
-            </li>
+✅ Users seeking greater control over their device
 
-            <li>
-                <strong>Google Wallet & NFC Payments</strong>
-                <ul>
-                    <li>Contactless payment functionality may not be supported depending on device certification and application requirements.</li>
-                </ul>
-            </li>
+## Not Recommended For
 
-            <li>
-                <strong>Proprietary Google Features</strong>
-                <ul>
-                    <li>Some Google-exclusive features available on stock Android may not be supported.</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+❌ Users who rely heavily on Android Auto
 
-    <h2>Not Recommended For</h2>
+❌ Users who require seamless Google Account integration
 
-    <ul>
-        <li>Users who rely heavily on Android Auto.</li>
-        <li>Users who require seamless Google Account synchronization.</li>
-        <li>Users who depend on Google Calendar and Contacts syncing without additional setup.</li>
-        <li>Users who require Google Wallet for daily contactless payments.</li>
-        <li>Users who expect all Google services to work exactly as they do on stock Android.</li>
-        <li>Users who require guaranteed compatibility with enterprise applications dependent on Google Play Services.</li>
-    </ul>
+❌ Users who depend on Google Wallet for daily payments
 
-    <div class="summary">
-        <h2>Summary</h2>
+❌ Users who expect all Google services to work exactly as they do on stock Android
 
-        <p>
-            CalyxOS provides an excellent balance between privacy, security, and usability.
-            However, it is not recommended for users who depend heavily on Google services
-            such as Google Account synchronization, Google Calendar, Google Contacts,
-            Android Auto, Google Wallet, and other proprietary Google features.
-        </p>
+❌ Users who require guaranteed compatibility with enterprise applications that depend on Google Play Services
 
-        <p>
-            Before switching to CalyxOS, users should carefully evaluate whether a
-            privacy-focused operating system aligns with their day-to-day requirements
-            and application compatibility needs.
-        </p>
-    </div>
+## Summary
 
-</body>
-</html>
+CalyxOS provides an excellent balance between privacy, security, and usability. However, users who depend heavily on Google services such as Google account synchronization, Google Calendar, Google Contacts, Android Auto, Google Wallet, and other proprietary Google features should carefully evaluate whether a privacy-focused operating system aligns with their day-to-day requirements before switching.
